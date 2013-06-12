@@ -1,0 +1,20 @@
+<job xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	 version="1.0"
+	 id="collectTweets">
+    
+    <step id="collect" next="analyze">
+        <chunk>
+            <reader ref="tweetReader"/>
+            <processor ref="tweetProcessor"/>
+            <writer ref="tweetWriter"></writer>
+        </chunk>
+    </step>
+    
+    <step id="analyze">
+        <chunk>
+            <reader ref="tweetReaderOnLocalDB"/>
+            <processor ref="tweetTimeProcessor"/>
+            <writer ref="tweetTimeWriter"/>
+        </chunk>
+    </step>
+</job>

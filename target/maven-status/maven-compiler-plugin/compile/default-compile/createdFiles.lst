@@ -1,0 +1,14 @@
+net/agetsuma/jbatchdemo/service/BatchManagerService.class
+net/agetsuma/jbatchdemo/writer/TweetTimeWriter.class
+net/agetsuma/jbatchdemo/service/TweetService.class
+net/agetsuma/jbatchdemo/processor/TweetTimeProcessor.class
+net/agetsuma/jbatchdemo/reader/TweetReaderOnLocalDB.class
+net/agetsuma/jbatchdemo/processor/TweetProcessor.class
+org/netbeans/rest/application/config/ApplicationConfig.class
+net/agetsuma/jbatchdemo/job/Jobs.class
+net/agetsuma/jbatchdemo/resources/BatchResource.class
+net/agetsuma/jbatchdemo/entity/Tweet.class
+net/agetsuma/jbatchdemo/entity/Hours.class
+net/agetsuma/jbatchdemo/entity/TweetTimes.class
+net/agetsuma/jbatchdemo/writer/TweetWriter.class
+net/agetsuma/jbatchdemo/reader/TweetReader.class
