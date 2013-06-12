@@ -5,8 +5,7 @@
     <step id="collect" next="analyze">
         <chunk>
             <reader ref="tweetReader"/>
-            <processor ref="tweetProcessor"/>
-            <writer ref="tweetWriter"></writer>
+            <writer ref="tweetWriter"/>
         </chunk>
     </step>
     
