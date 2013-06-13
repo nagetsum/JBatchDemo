@@ -38,7 +38,7 @@ public class BatchResource {
 //    @TwitterAuth
     public List<TweetTimes> update() {
         // データベース上のTweet情報をクリア
-        tweetService.clear();;
+        tweetService.clear();
         
         // バッチジョブの起動
         batchManagerService.startBatch(Jobs.COLLECT_TWEET, null);
